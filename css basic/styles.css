@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url ("https://cdn.mos.cms.futurecdn.net/xuzVhevUGrcmk22wAiJtXF.jpg");
+  background-image: url("https://cdn.mos.cms.futurecdn.net/xuzVhevUGrcmk22wAiJtXF.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
