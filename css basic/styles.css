@@ -1,27 +1,27 @@
 body {
-    display: flex;
-    flex-direction: column;
-    background-image: url("https://media.istockphoto.com/id/1174989484/photo/abstract-technology-blue-spotlight-");
-    background-repeat: no-repeat;
-    background-size:cover;
-  }
-  .main{
-    display: flex;
-    flex-direction: row;
-   
-  }
-  article{
-    
-    flex: 2;
-    overflow-y: auto;
-  }
-  aside{
-    flex: 1;
-    overflow-y: auto;
-    color:white;
-    
-  }
-  .logo{
-    font-size: 24px;
-    margin-right: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  background-image: url ("https://cdn.mos.cms.futurecdn.net/xuzVhevUGrcmk22wAiJtXF.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+ 
+}
+article{
+  
+  flex: 2;
+  overflow-y: auto;
+}
+aside{
+  flex: 1;
+  overflow-y: auto;
+  color:white;
+  
+}
+.logo{
+  font-size: 24px;
+  margin-right: 10px;
+}
