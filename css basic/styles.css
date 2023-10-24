@@ -1,27 +1,37 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("https://img.freepik.com/premium-photo/close-up-fast-food-still-life_23-2149281351.jpg?w=740");
-  background-repeat: no-repeat;
-  background-size:cover;
 }
-.main{
+
+
+main {
   display: flex;
   flex-direction: row;
- 
+  flex: auto
 }
-article{
-  
-  flex: 2;
-  overflow-y: auto;
-}
-aside{
+
+aside {
   flex: 1;
   overflow-y: auto;
-  color:white;
-  
 }
-.logo{
-  font-size: 24px;
-  margin-right: 10px;
+
+article {
+  flex:2;
+  overflow-y: auto;
+  border-radius: 20px;
 }
+
+article h1, h2, h3, h4, p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+article p{
+  color:rgb(0, 0, 2);
+  background-color: rgb(243, 245, 245);
+  border-radius: 10px; 
+  padding: 20px;
+
+}
+
+
